@@ -1,0 +1,13 @@
+{
+  "solution": "LOW OCTANE",
+  "brands": [
+    {
+      "brand": "KIA-HYUNDAI",
+      "ecus": [
+        "MED17.9.8",
+        "SIM2K-24x",
+        "SIM2K-25x"
+      ]
+    }
+  ]
+}

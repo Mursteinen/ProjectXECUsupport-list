@@ -1,0 +1,35 @@
+{
+  "solution": "MAF OFF",
+  "brands": [
+    {
+      "brand": "FCA",
+      "ecus": [
+        "EDC16C39",
+        "MJ8DF"
+      ]
+    },
+    {
+      "brand": "KIA-HYUNDAI",
+      "ecus": [
+        "EDC17CP14"
+      ]
+    },
+    {
+      "brand": "MERCEDES",
+      "ecus": [
+        "EDC16C31",
+        "EDC16CP31",
+        "EDC16CP36"
+      ]
+    },
+    {
+      "brand": "VAG",
+      "ecus": [
+        "EDC15P",
+        "EDC16CP34",
+        "EDC16U1",
+        "EDC16U1-U31-U34"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "solution": "TVA",
+  "brands": [
+    {
+      "brand": "BMW - MINI",
+      "ecus": [
+        "EDC16C31-C35",
+        "EDC17C41",
+        "EDC17C50-C56",
+        "EDC17CP41",
+        "EDC17CP45-CP49",
+        "MD1CS001"
+      ]
+    },
+    {
+      "brand": "CHEVROLET-OPEL",
+      "ecus": [
+        "DELCO E98",
+        "EDC16C36",
+        "EDC16C39"
+      ]
+    },
+    {
+      "brand": "FCA",
+      "ecus": [
+        "DCM3.5",
+        "EDC16C39",
+        "EDC16CP31",
+        "EDC17C69",
+        "EDC17C84",
+        "MJ8DF",
+        "MJ9DF"
+      ]
+    },
+    {
+      "brand": "FORD",
+      "ecus": [
+        "EDC17CP05"
+      ]
+    },
+    {
+      "brand": "IVECO",
+      "ecus": [
+        "EDC16C39",
+        "EDC17C49",
+        "EDC17C69",
+        "EDC17CP52"
+      ]
+    },
+    {
+      "brand": "KIA-HYUNDAI",
+      "ecus": [
+        "EDC16C39",
+        "EDC17C08",
+        "EDC17C57",
+        "EDC17CP14"
+      ]
+    },
+    {
+      "brand": "MAZDA",
+      "ecus": [
+        "SID208"
+      ]
+    },
+    {
+      "brand": "MERCEDES",
+      "ecus": [
+        "CRD2.x",
+        "CRD3.x",
+        "EDC16C31",
+        "EDC16CP31",
+        "EDC16CP36",
+        "EDC17C43-CP46",
+        "EDC17C66",
+        "EDC17CP10",
+        "EDC17CP57",
+        "EDC17CP60",
+        "MD1CP001"
+      ]
+    },
+    {
+      "brand": "PSA",
+      "ecus": [
+        "DCM3.5",
+        "DCM6.2",
+        "EDC16C34",
+        "EDC16C39",
+        "EDC16CP39",
+        "EDC17C10",
+        "EDC17C60"
+      ]
+    },
+    {
+      "brand": "RENAULT-NISSAN",
+      "ecus": [
+        "EDC16CP33",
+        "EDC16CP42",
+        "EDC17C42",
+        "EDC17C84",
+        "SID305-6",
+        "SID309",
+        "SID310"
+      ]
+    },
+    {
+      "brand": "SSANGYONG",
+      "ecus": [
+        "DCM3.2"
+      ]
+    },
+    {
+      "brand": "VAG",
+      "ecus": [
+        "DCM6.2",
+        "EDC16CP34",
+        "EDC16U1-U31-U34",
+        "EDC17C46",
+        "EDC17C54",
+        "EDC17C64",
+        "EDC17C74",
+        "EDC17CP04",
+        "EDC17CP14",
+        "EDC17CP20",
+        "EDC17CP44",
+        "EDC17CP54",
+        "EDC17CP74",
+        "PCR2.1",
+        "PPD1.2"
+      ]
+    },
+    {
+      "brand": "VOLVO",
+      "ecus": [
+        "EDC16C31",
+        "EDC16C34",
+        "EDC17CP22",
+        "EDC17CP48"
+      ]
+    }
+  ]
+}

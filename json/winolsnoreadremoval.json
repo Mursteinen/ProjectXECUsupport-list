@@ -1,0 +1,17 @@
+{
+  "solution": "WATER PUMP",
+  "brands": [
+    {
+      "brand": "VAG",
+      "ecus": [
+        "EDC17C46",
+        "EDC17C54",
+        "EDC17C64",
+        "EDC17C74",
+        "EDC17CP20",
+        "EDC17CP54",
+        "PCR2.1"
+      ]
+    }
+  ]
+}

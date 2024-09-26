@@ -1,0 +1,24 @@
+{
+  "solution": "TPROT OFF",
+  "brands": [
+    {
+      "brand": "PSA",
+      "ecus": [
+        "EDC17C60",
+        "MD1CS003"
+      ]
+    },
+    {
+      "brand": "RENAULT-NISSAN",
+      "ecus": [
+        "EDC17C42"
+      ]
+    },
+    {
+      "brand": "VAG",
+      "ecus": [
+        "EDC17CP44"
+      ]
+    }
+  ]
+}

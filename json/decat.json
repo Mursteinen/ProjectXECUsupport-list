@@ -1,0 +1,132 @@
+{
+  "solution": "DECAT",
+  "brands": [
+    {
+      "brand": "BMW - MINI",
+      "ecus": [
+        "ME7.2",
+        "ME9.1",
+        "MED17.2",
+        "MEVD17.2.4",
+        "MEVD17.2.5",
+        "MEVD17.2.8",
+        "MEVD17.2.9",
+        "MEVD17.2.g",
+        "MEVD17.2.H",
+        "MG1CS003",
+        "MG1CS201",
+        "MS40.X",
+        "MS41",
+        "MS42",
+        "MS43",
+        "MS45.X",
+        "MSD87",
+        "MSD-V80-81",
+        "MSV70"
+      ]
+    },
+    {
+      "brand": "CHEVROLET-OPEL",
+      "ecus": [
+        "DELCO E39",
+        "DELCO E78",
+        "DELCO E83"
+      ]
+    },
+    {
+      "brand": "CHINA",
+      "ecus": [
+        "ME17.8.8",
+        "ME7"
+      ]
+    },
+    {
+      "brand": "FCA",
+      "ecus": ["MJ9DF"]
+    },
+    {
+      "brand": "FORD",
+      "ecus": [
+        "EMS2204",
+        "MED17",
+        "MED17.2.2",
+        "SIM28"
+      ]
+    },
+    {
+      "brand": "IVECO",
+      "ecus": [
+        "EDC16C39",
+        "EDC17C49",
+        "EDC17CP52"
+      ]
+    },
+    {
+      "brand": "KIA-HYUNDAI",
+      "ecus": [
+        "CPEGD2",
+        "CPEGD2.20.4",
+        "CPGDSH2.26.1",
+        "CPGDSH2.26.3",
+        "EDC17C57",
+        "M(G)7.9.8",
+        "ME(G)17.9.21",
+        "ME(G)17.9.XX",
+        "MED(G)17.9.8",
+        "MT38",
+        "MT86",
+        "SIM2K-14X",
+        "SIM2K-24X",
+        "SIM2K-25X",
+        "SIM2K-26X",
+        "SIM2K-34X"
+      ]
+    },
+    {
+      "brand": "MERCEDES",
+      "ecus": ["MED 17.7", "SIM271DE"]
+    },
+    {
+      "brand": "MITSUBISHI",
+      "ecus": ["DENSO"]
+    },
+    {
+      "brand": "PSA",
+      "ecus": [
+        "ME7.4.5",
+        "ME7.9.5",
+        "MED17.4.2",
+        "V34",
+        "VALEO V46"
+      ]
+    },
+    {
+      "brand": "RENAULT-NISSAN",
+      "ecus": [
+        "EMS3110",
+        "EMS3120",
+        "EMS3125",
+        "EMS3132",
+        "EMS3150",
+        "EMS3155",
+        "SID307",
+        "VALEO V42"
+      ]
+    },
+    {
+      "brand": "VAG",
+      "ecus": [
+        "ME7.1.1",
+        "ME7.5",
+        "MED17.1",
+        "MED17.4.2",
+        "MED17.5",
+        "MED17.5.2",
+        "MED9.5.10",
+        "SIMOS 10",
+        "SIMOS 18",
+        "SIMOS 7"
+      ]
+    }
+  ]
+}

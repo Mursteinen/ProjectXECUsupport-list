@@ -1,0 +1,48 @@
+{
+  "solution": "VIRGIN",
+  "brands": [
+    {
+      "brand": "FCA",
+      "ecus": [
+        "9DF EPROM",
+        "IAW 5AF"
+      ]
+    },
+    {
+      "brand": "MERCEDES",
+      "ecus": [
+        "EDC16"
+      ]
+    },
+    {
+      "brand": "PSA",
+      "ecus": [
+        "DCM6.2 EPROM",
+        "IAW 6LPX VIRGIN",
+        "VALEO V46.11 EPROM"
+      ]
+    },
+    {
+      "brand": "RENAULT",
+      "ecus": [
+        "EDC16C36 EPROM",
+        "EDC17C42",
+        "EMS 3132",
+        "EMS 3134",
+        "EMS3110",
+        "S3000 EPROM",
+        "SID305",
+        "SIRIUS 32",
+        "VALEO V40",
+        "VALEO V40 EPROM",
+        "VALEO V42 EPROM"
+      ]
+    },
+    {
+      "brand": "RENAULT-NISSAN",
+      "ecus": [
+        "SID310 FLASH"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "solution": "LAMBDA OFF",
+  "brands": [
+    {
+      "brand": "BMW - MINI",
+      "ecus": [
+        "EDC16C31-C35",
+        "EDC17C41",
+        "EDC17C50-C56",
+        "EDC17CP02",
+        "EDC17CP41",
+        "EDC17CP45-CP49",
+        "MD1CP002",
+        "MD1CS001",
+        "ME9.2",
+        "MED17.2",
+        "MEV17.2.2",
+        "MS42",
+        "MS43",
+        "MSD-V80-81",
+        "MSV70"
+      ]
+    },
+    {
+      "brand": "CHEVROLET-OPEL",
+      "ecus": [
+        "DELCO E78",
+        "EDC16C36",
+        "EDC17C84"
+      ]
+    },
+    {
+      "brand": "FCA",
+      "ecus": [
+        "EDC16C39",
+        "EDC16CP31",
+        "EDC17C69",
+        "EDC17C84",
+        "MJ8DF",
+        "MJ9DF"
+      ]
+    },
+    {
+      "brand": "FORD",
+      "ecus": [
+        "EDC17CP05",
+        "EMS2510",
+        "MED17",
+        "MED17.2.2",
+        "SIM28"
+      ]
+    },
+    {
+      "brand": "IVECO",
+      "ecus": [
+        "EDC16C39",
+        "EDC17C49",
+        "EDC17C69",
+        "EDC17CP52"
+      ]
+    },
+    {
+      "brand": "JLR",
+      "ecus": [
+        "EDC17CP42",
+        "MED17.9.9",
+        "MEDC17.8.3",
+        "MEDC17.9"
+      ]
+    },
+    {
+      "brand": "KIA-HYUNDAI",
+      "ecus": [
+        "CPEGD2",
+        "DCM6.2",
+        "EDC16C39",
+        "EDC17C08",
+        "EDC17C57",
+        "EDC17CP14",
+        "MED(G)17.9.8"
+      ]
+    },
+    {
+      "brand": "MAZDA",
+      "ecus": [
+        "SID208"
+      ]
+    },
+    {
+      "brand": "MERCEDES",
+      "ecus": [
+        "CRD2.x",
+        "CRD3.x",
+        "EDC16C31",
+        "EDC16CP31",
+        "EDC16CP36",
+        "EDC17C43-CP46",
+        "EDC17C66",
+        "EDC17CP10",
+        "EDC17CP57",
+        "EDC17CP60",
+        "MD1CP001",
+        "MED 17.7"
+      ]
+    },
+    {
+      "brand": "PSA",
+      "ecus": [
+        "DCM3.5",
+        "DCM6.2",
+        "EDC16C34",
+        "EDC16C39",
+        "EDC17C10",
+        "EDC17C60",
+        "ME7.4.5",
+        "MED17.4.2",
+        "VALEO V46",
+        "VALEO VD46"
+      ]
+    },
+    {
+      "brand": "RENAULT-NISSAN",
+      "ecus": [
+        "EDC16CP42",
+        "EDC17C41",
+        "EDC17C42",
+        "EDC17C84",
+        "EMS3150",
+        "MD1CS006",
+        "SID307",
+        "SID309",
+        "SID310",
+        "VALEO V42"
+      ]
+    },
+    {
+      "brand": "SUZUKI",
+      "ecus": [
+        "EDC17C69"
+      ]
+    },
+    {
+      "brand": "VAG",
+      "ecus": [
+        "DCM6.2",
+        "EDC16CP34",
+        "EDC16U1-U31-U34",
+        "EDC17C46",
+        "EDC17C54",
+        "EDC17C64",
+        "EDC17C74",
+        "EDC17CP04",
+        "EDC17CP14",
+        "EDC17CP20",
+        "EDC17CP44",
+        "EDC17CP54",
+        "EDC17CP74",
+        "IAW M4V",
+        "ME7.1.1",
+        "ME7.5",
+        "MED17.4.2",
+        "MED17.5",
+        "MED17.5.5",
+        "MED9.5.10",
+        "MG1CS011",
+        "PCR2.1",
+        "PPD1.2",
+        "SIMOS 11",
+        "SIMOS 3"
+      ]
+    },
+    {
+      "brand": "VOLVO",
+      "ecus": [
+        "EDC16C31",
+        "EDC16C34",
+        "EDC17CP22",
+        "EDC17CP48",
+        "ME7.0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECU Solutions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #444;
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: 700;
+        }
+
+        select {
+            margin-bottom: 20px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background-color: white;
+            cursor: pointer;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            background-color: white;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+
+        th:hover {
+            background-color: #45a049;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            table {
+                font-size: 14px;
+            }
+
+            select {
+                font-size: 14px;
+                padding: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<h2>ECU Solutions Table</h2>
+
+<!-- Dropdown to select solution -->
+<label for="solutionSelect">Select Solution:</label>
+<select id="solutionSelect" onchange="loadData()">
+    <!-- Options will be populated dynamically -->
+</select>
+
+<!-- Dropdown to select brand -->
+<label for="brandSelect">Filter by Brand:</label>
+<select id="brandSelect" onchange="filterByBrand()">
+    <option value="all">All Brands</option>
+</select>
+
+<table id="ecuTable">
+    <thead>
+        <tr>
+            <th onclick="sortTable(0)">Solution</th>
+            <th onclick="sortTable(1)">Brand</th>
+            <th>ECUs</th>
+        </tr>
+    </thead>
+    <tbody id="tableBody">
+        <!-- Data will be injected here by JavaScript -->
+    </tbody>
+</table>
+
+<script>
+    let data = [];
+
+    // Fetch all JSON files from the /json directory
+    async function fetchJSONFiles() {
+        // List of solutions (you can automate this part if needed)
+        const solutions = [    
+		'adblue',
+		'decat',
+		'dpf_off',
+		'dtc_off',
+		'egr_off',
+		'flaps_off',
+		'hotstart',
+		'immo_off',
+		'lambda_off',
+		'lowoctane',
+		'maf_off',
+		'nox_off',
+		'popnbangs',
+		'rpmlock_off',
+		'start-stop_off',
+		'tprot_off',
+		'tva',
+		'virgin',
+		'vmax',
+		'waterpump',
+		'winolsnoreadremoval'
+		];
+        
+        // Populate dropdown dynamically
+        const solutionSelect = document.getElementById("solutionSelect");
+        solutions.forEach(solution => {
+            const option = document.createElement("option");
+            option.value = solution;
+            option.textContent = solution.toUpperCase(); // Display uppercase
+            solutionSelect.appendChild(option);
+        });
+        
+        // Load initial data for the first solution
+        await loadData();
+    }
+
+    // Load data based on selected solution
+    async function loadData() {
+        const selectedSolution = document.getElementById("solutionSelect").value;
+        const fileName = `./json/${selectedSolution}.json`; // Assuming the files are in a folder called "json"
+
+        try {
+            const response = await fetch(fileName);
+            if (!response.ok) throw new Error('Network response was not ok');
+            const jsonData = await response.json();
+            data = jsonData; // Store data for filtering
+            populateTable(data);
+            populateBrandDropdown(data);
+        } catch (error) {
+            console.error('Error loading the JSON file:', error);
+            alert('Failed to load data. Please check the console for details.');
+        }
+    }
+
+    function populateTable(data, filterBrand = 'all') {
+        const tableBody = document.getElementById("tableBody");
+        tableBody.innerHTML = ''; // Clear existing rows
+
+        data.brands.forEach(brandData => {
+            const brand = brandData.brand;
+            const ecus = brandData.ecus;
+
+            if (filterBrand === 'all' || filterBrand === brand) {
+                const row = document.createElement("tr");
+
+                // Solution column
+                const solutionCell = document.createElement("td");
+                solutionCell.textContent = data.solution; // Solution name from the current data
+                row.appendChild(solutionCell);
+
+                // Brand column
+                const brandCell = document.createElement("td");
+                brandCell.textContent = brand;
+                row.appendChild(brandCell);
+
+                // ECUs column
+                const ecuCell = document.createElement("td");
+                ecuCell.textContent = ecus.join(", ");
+                row.appendChild(ecuCell);
+
+                tableBody.appendChild(row);
+            }
+        });
+    }
+
+    function populateBrandDropdown(data) {
+        const brandSelect = document.getElementById("brandSelect");
+        brandSelect.innerHTML = '<option value="all">All Brands</option>'; // Reset the dropdown
+        
+        data.brands.forEach(brandData => {
+            const brand = brandData.brand;
+            const option = document.createElement("option");
+            option.value = brand;
+            option.textContent = brand;
+            brandSelect.appendChild(option);
+        });
+    }
+
+    function filterByBrand() {
+        const selectedBrand = document.getElementById("brandSelect").value;
+        populateTable(data, selectedBrand);
+    }
+
+    function sortTable(columnIndex) {
+        const table = document.getElementById("ecuTable");
+        let switching = true;
+        let shouldSwitch, i, rows, x, y;
+        let direction = "asc"; 
+
+        while (switching) {
+            switching = false;
+            rows = table.rows;
+            
+            for (i = 1; i < (rows.length - 1); i++) {
+                shouldSwitch = false;
+                x = rows[i].getElementsByTagName("TD")[columnIndex];
+                y = rows[i + 1].getElementsByTagName("TD")[columnIndex];
+
+                if (direction == "asc") {
+                    if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+                        shouldSwitch = true;
+                        break;
+                    }
+                } else if (direction == "desc") {
+                    if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+                        shouldSwitch = true;
+                        break;
+                    }
+                }
+            }
+
+            if (shouldSwitch) {
+                rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+                switching = true;
+            } else {
+                if (direction === "asc") {
+                    direction = "desc";
+                } else {
+                    direction = "asc";
+                }
+            }
+        }
+    }
+
+    // Load all solutions when the page loads
+    fetchJSONFiles();
+</script>
+
+</body>
+</html>

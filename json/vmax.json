@@ -1,0 +1,187 @@
+{
+  "solution": "VMAX",
+  "brands": [
+    {
+      "brand": "BMW - MINI",
+      "ecus": [
+        "EDC15C4",
+        "EDC16C31-C35",
+        "EDC16CP35",
+        "EDC17C41",
+        "EDC17C50-C56",
+        "EDC17CP41",
+        "EDC17CP45-CP49",
+        "M5.2",
+        "M5.2.1",
+        "MD1CP002",
+        "MD1CS001",
+        "ME7.2",
+        "MEVD17.2",
+        "MEVD17.2.G",
+        "MG1CS003",
+        "MG1CS201",
+        "MS41",
+        "MS42",
+        "MS43",
+        "MS45.X",
+        "MSD80",
+        "MSS50",
+        "MSS52",
+        "MSS54",
+        "MSS60",
+        "MSV70"
+      ]
+    },
+    {
+      "brand": "CHEVROLET-OPEL",
+      "ecus": [
+        "EDC16C36",
+        "EDC16C39",
+        "EDC17C18-C19",
+        "EDC17C59",
+        "MD1CS003"
+      ]
+    },
+    {
+      "brand": "FCA",
+      "ecus": [
+        "EDC16C39",
+        "EDC17C69",
+        "EDC17C79",
+        "MJ8DF",
+        "MJ9DF"
+      ]
+    },
+    {
+      "brand": "FORD",
+      "ecus": [
+        "DCU10X",
+        "EDC16C34",
+        "EDC17C70",
+        "MG1CS015 (BETA)",
+        "SID208",
+        "SID209-211"
+      ]
+    },
+    {
+      "brand": "IVECO",
+      "ecus": [
+        "EDC16C39",
+        "EDC17C49",
+        "EDC17C69",
+        "EDC17CP52",
+        "EDC7UC31"
+      ]
+    },
+    {
+      "brand": "JLR",
+      "ecus": [
+        "EDC17CP11",
+        "EDC17CP55",
+        "MEDC17.9"
+      ]
+    },
+    {
+      "brand": "KIA-HYUNDAI",
+      "ecus": [
+        "CPGDSH2.26.3",
+        "EDC17C57",
+        "EDC17CP14",
+        "MED(G)17.9.8"
+      ]
+    },
+    {
+      "brand": "MERCEDES",
+      "ecus": [
+        "CRD11 (DCM3.2)",
+        "CRD2.x",
+        "CRD3.x",
+        "EDC16C31",
+        "EDC16CP31",
+        "EDC16CP36",
+        "EDC17C43-CP46",
+        "EDC17C66",
+        "EDC17CP10",
+        "EDC17CP57",
+        "EDC17CP60",
+        "MD1CP002",
+        "ME(D)9.7",
+        "ME17 limited versions"
+      ]
+    },
+    {
+      "brand": "MITSUBISHI",
+      "ecus": [
+        "DENSO",
+        "EDC17C49",
+        "EDC17CP52"
+      ]
+    },
+    {
+      "brand": "PSA",
+      "ecus": [
+        "AMI ELECTRIC",
+        "DCM3.5",
+        "DCM6.2",
+        "DCM7.1",
+        "EDC16C34",
+        "EDC16C39",
+        "EDC17C10",
+        "EDC17C60",
+        "MD1CS003",
+        "SID208"
+      ]
+    },
+    {
+      "brand": "RENAULT-NISSAN",
+      "ecus": [
+        "DENSO",
+        "EDC16C36",
+        "EDC17C11",
+        "EDC17C42",
+        "EDC17C84",
+        "SID305-6",
+        "SID307",
+        "SID309",
+        "SID310"
+      ]
+    },
+    {
+      "brand": "SUZUKI",
+      "ecus": [
+        "EDC16C3"
+      ]
+    },
+    {
+      "brand": "TOYOTA - LEXUS",
+      "ecus": [
+        "DENSO (Diesel)",
+        "EDC17CP07-CP37"
+      ]
+    },
+    {
+      "brand": "VAG",
+      "ecus": [
+        "MED17.1.6X",
+        "DCM6.2",
+        "EDC16CP34",
+        "EDC17C46",
+        "EDC17C54",
+        "EDC17C64",
+        "EDC17C74",
+        "EDC17CP04",
+        "EDC17CP14",
+        "EDC17CP20",
+        "EDC17CP44",
+        "EDC17CP54",
+        "MD1CS004",
+        "MED17.5.6",
+        "MG1CS001",
+        "PCR2.1",
+        "PPD1.2",
+        "SIMOS 10",
+        "SIMOS 18"
+      ]
+    }
+  ]
+}

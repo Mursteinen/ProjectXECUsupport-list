@@ -1,0 +1,63 @@
+{
+  "solution": "NOX OFF",
+  "brands": [
+    {
+      "brand": "BMW - MINI",
+      "ecus": [
+        "MSD-V80-81"
+      ]
+    },
+    {
+      "brand": "CHEVROLET-OPEL",
+      "ecus": [
+        "DELCO E98"
+      ]
+    },
+    {
+      "brand": "FCA",
+      "ecus": [
+        "EDC17C69"
+      ]
+    },
+    {
+      "brand": "IVECO",
+      "ecus": [
+        "EDC16C39"
+      ]
+    },
+    {
+      "brand": "JLR",
+      "ecus": [
+        "EDC17CP55"
+      ]
+    },
+    {
+      "brand": "MERCEDES",
+      "ecus": [
+        "CRD3.x",
+        "EDC17C43-CP46",
+        "EDC17C66",
+        "EDC17CP10",
+        "EDC17CP57",
+        "MD1CP001",
+        "MD1CS006",
+        "MED17.7.2"
+      ]
+    },
+    {
+      "brand": "RENAULT-NISSAN",
+      "ecus": [
+        "MD1CS006"
+      ]
+    },
+    {
+      "brand": "VAG",
+      "ecus": [
+        "EDC17CP14",
+        "EDC17CP20",
+        "EDC17CP44",
+        "MED9.5.10"
+      ]
+    }
+  ]
+}

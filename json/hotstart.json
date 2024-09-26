@@ -1,0 +1,18 @@
+{
+  "solution": "HOTSTART",
+  "brands": [
+    {
+      "brand": "CHEVROLET-OPEL",
+      "ecus": ["EDC16C39"]
+    },
+    {
+      "brand": "VAG",
+      "ecus": [
+        "EDC15+",
+        "EDC16CP34",
+        "EDC17C46",
+        "EDC17U01"
+      ]
+    }
+  ]
+}

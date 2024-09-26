@@ -1,0 +1,55 @@
+{
+  "solution": "START-STOP",
+  "brands": [
+    {
+      "brand": "FCA",
+      "ecus": [
+        "MJ8DF"
+      ]
+    },
+    {
+      "brand": "KIA-HYUNDAI",
+      "ecus": [
+        "EDC17C57"
+      ]
+    },
+    {
+      "brand": "MERCEDES",
+      "ecus": [
+        "CRD3.x",
+        "EDC17C66"
+      ]
+    },
+    {
+      "brand": "PSA",
+      "ecus": [
+        "DCM6.2",
+        "EDC17C10",
+        "EDC17C60",
+        "EDC17CP11",
+        "MD1CS003",
+        "SID807",
+        "SID807 EVO"
+      ]
+    },
+    {
+      "brand": "RENAULT",
+      "ecus": [
+        "EDC17C84"
+      ]
+    },
+    {
+      "brand": "VAG",
+      "ecus": [
+        "DCM6.2",
+        "EDC17C46",
+        "EDC17C64",
+        "EDC17C74",
+        "EDC17CP44",
+        "EDC17CP54",
+        "MD1CS004",
+        "PCR2.1"
+      ]
+    }
+  ]
+}

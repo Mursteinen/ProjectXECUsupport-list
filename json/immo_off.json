@@ -1,0 +1,306 @@
+{
+  "solution": "IMMO OFF",
+  "brands": [
+    {
+      "brand": "BMW - MINI",
+      "ecus": [
+        "EDC15C4",
+        "EDC16 BETA",
+        "EDC16C35",
+        "EDC17C06",
+        "EDC17C41",
+        "EDC17C50",
+        "EDC17C56",
+        "EDC17CP02",
+        "EDC17CP09",
+        "EDC17CP45",
+        "EMS2-MS5150",
+        "M1.7.3",
+        "ME(D)17 GENERAL",
+        "ME5.2",
+        "ME7.2",
+        "ME9.2 flash not mpc",
+        "MEVD17.2.5",
+        "MEVD17.2.6",
+        "MEVD17.2.8",
+        "MEVD17.2.9",
+        "MEVD17.2.G",
+        "MEVD17.2.H",
+        "MS41",
+        "MS42",
+        "MS43",
+        "MS45.X",
+        "MSS50",
+        "MSS52",
+        "MSS54",
+        "MSS65",
+        "MSS70",
+        "MSV70"
+      ]
+    },
+    {
+      "brand": "CHEVROLET-OPEL",
+      "ecus": [
+        "E38 FLASH (BETA)",
+        "E39-E39A FLASH (BETA)",
+        "E40 FLASH (BETA)",
+        "E67 FLASH (BETA)",
+        "E69 EPROM",
+        "E83.X",
+        "EDC16C39 FLASH",
+        "HV240 EPROM",
+        "ME(D)17 GENERAL",
+        "MR140 EPROM"
+      ]
+    },
+    {
+      "brand": "CHINA",
+      "ecus": [
+        "M7.9.7",
+        "ME(D)17 GENERAL",
+        "ME17.8.8",
+        "ME7 GENERAL",
+        "ME7.8.8",
+        "ME7.9.7",
+        "ME7.9.7.1"
+      ]
+    },
+    {
+      "brand": "FCA",
+      "ecus": [
+        "EDC15C2 EPROM",
+        "EDC15C7",
+        "EDC16C34 FLASH",
+        "EDC16C39",
+        "EDC17C49",
+        "EDC17CP52",
+        "IAW 5AF",
+        "IAW 7GF",
+        "IAW 9GF",
+        "IAW10GF",
+        "MA1.7.3 EPROM",
+        "ME(D)17 GENERAL",
+        "ME7.3.x FLASH",
+        "ME7.9.6 FLASH",
+        "MJD6F3",
+        "MJD8Fx",
+        "MJD9DF"
+      ]
+    },
+    {
+      "brand": "HINO",
+      "ecus": [
+        "DENSO GEN 1 MCU BETA",
+        "DENSO GEN 2 MCU BETA",
+        "DENSO GEN 3 MCU BETA"
+      ]
+    },
+    {
+      "brand": "IVECO",
+      "ecus": [
+        "EDC16C39",
+        "EDC16C39 EPROM",
+        "EDC16C8",
+        "EDC16C8 EPROM",
+        "EDC17C49",
+        "EDC17CP52",
+        "EDC7C1 EPROM",
+        "EDC7UC31 EPROM",
+        "EDCMS6.3",
+        "ME(D)17 GENERAL"
+      ]
+    },
+    {
+      "brand": "KIA-HYUNDAI",
+      "ecus": [
+        "CPEGD2",
+        "DCM3.7",
+        "EDC15C7 EPROM",
+        "EDC16C39 EPROM",
+        "EDC17C08",
+        "EDC17C53",
+        "EDC17C57",
+        "EDC17CP14",
+        "EDC17CP62",
+        "HEPG9E73",
+        "KEFICO MH7203FA ,MH7201F 128KB",
+        "KEFICO MH8206 256kb",
+        "KEFICO MH8305 MH8306 MH8301 MH8302 512kb",
+        "M(G)7.9.7",
+        "M(G)7.9.8",
+        "ME(D)17 GENERAL",
+        "ME(G)17.9.XX",
+        "MED(G)17.9.8",
+        "MED(G)17.9.8(OBD WRITE)",
+        "med17.9.2",
+        "meg17.9.21(OBD WRITE)",
+        "MT38",
+        "MT86",
+        "SIM2K-14x",
+        "SIM2K-24x",
+        "SIM2K-25x",
+        "SIM2K-26x",
+        "SIM2K-34x",
+        "SIM2K-47 BOOT MODE",
+        "SIMK-42 BOOT MODE",
+        "SIMK-43 BOOT MODE"
+      ]
+    },
+    {
+      "brand": "MG",
+      "ecus": [
+        "ME(D)17 GENERAL",
+        "ME17.8.8"
+      ]
+    },
+    {
+      "brand": "MITSUBISHI",
+      "ecus": [
+        "MELCO"
+      ]
+    },
+    {
+      "brand": "NISSAN",
+      "ecus": [
+        "HITACHI SH705X"
+      ]
+    },
+    {
+      "brand": "PSA",
+      "ecus": [
+        "DCM 3.4 EPROM",
+        "DCM 3.5 EPROM",
+        "DCM6.2 EPROM (BETA)",
+        "EDC15C2 FLASH",
+        "EDC15C7 FLASH",
+        "EDC16C34 - C3 EPROM",
+        "EDC16C34 EPROM",
+        "EDC16C39",
+        "EDC17C10",
+        "EDC17C10 EPROM",
+        "EDC17C60",
+        "EDC17C60 EPROM",
+        "EDC17CP11",
+        "IAW 48P2",
+        "IAW 6LPX",
+        "J34P eprom",
+        "M7.4.4 EPROM",
+        "ME(D)17 GENERAL",
+        "ME7.4.4 EPROM",
+        "ME7.4.5 EPROM",
+        "ME7.4.9",
+        "MED17.4",
+        "MED17.4.1",
+        "MED17.4.2",
+        "MED17.4.4",
+        "MED17.4.4 EPROM",
+        "MEDV17.4",
+        "MEDV17.4.2",
+        "MEDV17.4.4",
+        "MEV17.4.2",
+        "MEV17.4.X",
+        "MEV17.5.4",
+        "MEVD17.4.2 EPROM",
+        "SAGEM S2000 EPROM",
+        "SAGEM S2000Pm2 EPROM",
+        "SID201 EPROM",
+        "SID801 EPROM",
+        "SID801A EPROM",
+        "SID803 EPROM",
+        "SID804 EPROM",
+        "SID806 EPROM",
+        "SID807",
+        "SID807 MPC (2MB)",
+        "VALEO V34.1 EPROM",
+        "VALEO V46.1 EPROM",
+        "VALEO V46.11 EPROM",
+        "VALEO VD46.1 EPROM"
+      ]
+    },
+    {
+      "brand": "RENAULT",
+      "ecus": [
+        "EDC15C3 EPROM",
+        "EDC17C11",
+        "EDC17CP19",
+        "EMS 3120",
+        "EMS 3125",
+        "EMS3110",
+        "EMS3132",
+        "IAW 5NR2 EPROM",
+        "IAW 5NR2 V2 EPROM",
+        "ME(D)17 GENERAL",
+        "SIRUS 32",
+        "VALEO V40",
+        "VALEO V42"
+      ]
+    },
+    {
+      "brand": "SSANGYONG",
+      "ecus": [
+        "DCM3.7 EPROM",
+        "DCM3.7 FLASH BETA",
+        "DELPHI 95160",
+        "DELPHI 95320"
+      ]
+    },
+    {
+      "brand": "TOYOTA",
+      "ecus": [
+        "COROLLA 1.6 Petrol Denso -3ZZ-FE-20-RA57",
+        "COROLLA 1nz-fe 31 93c56",
+        "COROLLA 2NZ - FE 77 EPROM 25020",
+        "COROLLA 2NZ - FE 88 EPROM 25040",
+        "COROLLA 50 93c56",
+        "DENSO - Immoblizer Type H - Eeprom 25020",
+        "DENSO - Immoblizer Type H - Eprom 24c16",
+        "DENSO GEN 1 MCU BETA",
+        "DENSO GEN 2 MCU BETA",
+        "DENSO GEN 3 MCU BETA",
+        "EDC16C10 EPROM",
+        "HILUX Denso 2KD-FTV DENSO _93C56",
+        "HILUX Denso 1KD-FTV _93C56",
+        "HILUX 93c56",
+        "HILUX gen3 32h 95320",
+        "LAND CRUISER - 3.2L - DENSO - 93c86",
+        "YARIS 93c66"
+      ]
+    },
+    {
+      "brand": "VAG",
+      "ecus": [
+        "EDC15VM+ EPROM",
+        "EDC16 EPROM",
+        "EDC17C46",
+        "EDC17C54",
+        "EDC17CP04",
+        "EDC17CP14",
+        "EDC17CP20",
+        "EDC17CP44",
+        "EDC17CP54",
+        "IAW4AV_CV",
+        "IAW4HV-TV EPROM",
+        "IAW4LV_ML EPROM",
+        "IAW7GV EPROM",
+        "ME(D)17 GENERAL",
+        "ME3.8.2 EPROM",
+        "ME7.X EPROM",
+        "ME9.5.10 EPROM",
+        "MED17.5",
+        "MED17.5.1 FLASH SPECIAL METHOD",
+        "MED17.5.2",
+        "MED17.5.5",
+        "MED9.1 EPROM 95160",
+        "MED9.1 EPROM 95320 BDM",
+        "MEDC17 EPROM",
+        "MP9.0",
+        "PPD1.2",
+        "SIMOS 12",
+        "SIMOS 2 EPROM",
+        "SIMOS 3 EPROM",
+        "SIMOS 6.3 EPROM",
+        "SIMOS 7 EPROM"
+      ]
+    }
+  ]
+}
